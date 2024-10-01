@@ -3,8 +3,9 @@
 
 This time the system will use two cameras to implement the control and smart braking features for wheelchairs, the first camera is specifically for detecting obstacles with the YOLOv8 model that has been trained, where if the obstacle is below 1.2 meters it will send a stop command. The second camera is used to control the wheelchair using LSTM with Sibi language gestures.
 
+<p allign="center">
 ![Bisindo](https://github.com/user-attachments/assets/5441117f-9c74-45e2-a3b8-1f6f32690baa)
-
+</p>
 ## 🎬 Demo
 
 ![demo](https://github.com/user-attachments/assets/6df1c74a-0625-4650-8092-10bbafc2a47d)

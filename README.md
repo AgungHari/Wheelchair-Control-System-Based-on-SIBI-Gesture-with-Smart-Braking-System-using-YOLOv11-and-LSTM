@@ -22,7 +22,6 @@ Pypi version
 ![Scikit-learn version](https://img.shields.io/badge/scikitlearn-v1.5.1-black)
 ![Keras version](https://img.shields.io/badge/Keras-v3.5.0-purple)
 ![matplotlib version](https://img.shields.io/badge/matplotlib-v3.9.2-red)
-![MediaPipe version](https://img.shields.io/badge/MediaPipe-v0.10.14-blue)
 
 
 I recommend a separate folder and venv for creating the model and the wheelchair program. for training venv setup :

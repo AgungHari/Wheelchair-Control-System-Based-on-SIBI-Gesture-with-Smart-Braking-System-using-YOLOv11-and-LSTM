@@ -17,7 +17,7 @@ def delay(seconds):
 host = "192.168.4.1" 
 port = 80 
 # Inisialisasi model YOLOv8n dari Ultralytics
-yolo_model = YOLO('best100epoch.pt')
+yolo_model = YOLO('Agung_YOLOv11_100Epoch_16Batch.pt')
 
 # Inisialisasi model Mediapipe untuk mendeteksi pose dan landmark
 mp_holistic = mp.solutions.holistic

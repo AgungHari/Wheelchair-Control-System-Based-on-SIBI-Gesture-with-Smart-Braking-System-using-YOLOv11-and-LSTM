@@ -1,5 +1,5 @@
 
-# Smart Wheelchair Control System Based on SIBI Gesture and Smart Braking System using YOLOv8 and LSTM
+# Wheelchair Control System Based on SIBI Gesture with Smart Braking System using YOLOv11 and LSTM
 
 This time the system will use two cameras to implement the control and smart braking features for wheelchairs, the first camera is specifically for detecting obstacles with the YOLOv8 model that has been trained, where if the obstacle is below 1.2 meters it will send a stop command. The second camera is used to control the wheelchair using LSTM with Sibi language gestures.
 

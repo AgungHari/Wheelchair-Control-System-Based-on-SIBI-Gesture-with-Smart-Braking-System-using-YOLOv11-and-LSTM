@@ -44,13 +44,13 @@ for training LSTM model
   pip install seaborn
   pip install scikit-learn
 ```
-for training YOLOv8
+for training YOLOv11 (easy notebook for vscode coming soon...)
 ```bash
   pip install ipykernel
   pip install ultralytics roboflow opencv-python
 ```
 
-YOLOv8 need an absolute path. so change the data path for train, val, test in data.yaml example :
+YOLOv11 need an absolute path. so change the data path for train, val, test in data.yaml example :
 
 ```bash
   names:

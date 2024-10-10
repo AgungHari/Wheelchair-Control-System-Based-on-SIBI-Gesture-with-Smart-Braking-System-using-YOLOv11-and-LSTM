@@ -25,6 +25,9 @@ Pypi version
 ![Keras version](https://img.shields.io/badge/Keras-v3.5.0-purple)
 ![matplotlib version](https://img.shields.io/badge/matplotlib-v3.9.2-red)
 
+Training YOLOv11 requires a PC with good specifications, it is recommended to use the latest Nvidia or AMD GPUs. Alternatively, you can train it using Google Colab via the following link; make sure to 'make a copy' before starting the training.
+
+https://colab.research.google.com/drive/1FLlRhzzll1zSE9LsDSlJ2s3qq3C9VJ1n?usp=sharing
 
 I recommend a separate folder and venv for creating the model and the wheelchair program. for training venv setup :
 

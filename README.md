@@ -12,6 +12,8 @@
 ![matplotlib version](https://img.shields.io/badge/matplotlib-v3.9.2-red)
 ![License](https://img.shields.io/badge/License-MIT-darkgray)
 
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
 This time the system will use two cameras to implement the control and smart braking features for wheelchairs, the first camera is specifically for detecting obstacles with the YOLOv11 model that has been trained, where if the obstacle is below 1.2 meters it will send a stop command. The second camera is used to control the wheelchair using LSTM with Sibi language gestures.
 
 <p align="center">

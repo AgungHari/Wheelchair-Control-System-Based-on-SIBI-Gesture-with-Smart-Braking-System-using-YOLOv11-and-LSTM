@@ -2,14 +2,15 @@
 
 # Wheelchair Control System Based on SIBI Gesture with Smart Braking System using YOLOv11 and LSTM
 
-![MediaPipe version](https://img.shields.io/badge/MediaPipe-v0.10.14-blue)
-![Ultralytics version](https://img.shields.io/badge/Ultralytics-v8.1.42-pink)
+![MediaPipe version](https://img.shields.io/badge/MediaPipe-v0.10.14-darkblue)
+![Ultralytics version](https://img.shields.io/badge/Ultralytics-v8.1.42-darkred)
 ![Tensorflow version](https://img.shields.io/badge/Tensorflow-v2.10.1-orange)
-![OpenCV version](https://img.shields.io/badge/OpenCV-v4.9.0.80-green)
+![OpenCV version](https://img.shields.io/badge/OpenCV-v4.9.0.80-darkgreen)
 ![IPyKernel version](https://img.shields.io/badge/IPyKernel-v6.29.4-yellow)
 ![Scikit-learn version](https://img.shields.io/badge/scikitlearn-v1.5.1-black)
 ![Keras version](https://img.shields.io/badge/Keras-v3.5.0-purple)
 ![matplotlib version](https://img.shields.io/badge/matplotlib-v3.9.2-red)
+![License](https://img.shields.io/badge/License-MIT-darkgray)
 
 This time the system will use two cameras to implement the control and smart braking features for wheelchairs, the first camera is specifically for detecting obstacles with the YOLOv11 model that has been trained, where if the obstacle is below 1.2 meters it will send a stop command. The second camera is used to control the wheelchair using LSTM with Sibi language gestures.
 

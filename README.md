@@ -1,20 +1,6 @@
+[![universal-personal-banner1](fileagung4.png)](https://www.agungg.com/)
 
 # Wheelchair Control System Based on SIBI Gesture with Smart Braking System using YOLOv11 and LSTM
-
-This time the system will use two cameras to implement the control and smart braking features for wheelchairs, the first camera is specifically for detecting obstacles with the YOLOv11 model that has been trained, where if the obstacle is below 1.2 meters it will send a stop command. The second camera is used to control the wheelchair using LSTM with Sibi language gestures.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/5441117f-9c74-45e2-a3b8-1f6f32690baa" alt="Bisindo" width="300"  />
-</p>
-
-## 🎬 Demo
-
-![demo](https://github.com/user-attachments/assets/6df1c74a-0625-4650-8092-10bbafc2a47d)
-
-
-## 🔨 Installation
-
-Pypi version
 
 ![MediaPipe version](https://img.shields.io/badge/MediaPipe-v0.10.14-blue)
 ![Ultralytics version](https://img.shields.io/badge/Ultralytics-v8.1.42-pink)
@@ -24,6 +10,19 @@ Pypi version
 ![Scikit-learn version](https://img.shields.io/badge/scikitlearn-v1.5.1-black)
 ![Keras version](https://img.shields.io/badge/Keras-v3.5.0-purple)
 ![matplotlib version](https://img.shields.io/badge/matplotlib-v3.9.2-red)
+
+This time the system will use two cameras to implement the control and smart braking features for wheelchairs, the first camera is specifically for detecting obstacles with the YOLOv11 model that has been trained, where if the obstacle is below 1.2 meters it will send a stop command. The second camera is used to control the wheelchair using LSTM with Sibi language gestures.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5441117f-9c74-45e2-a3b8-1f6f32690baa" alt="Bisindo" width="300"  />
+</p>
+
+## Project Result
+
+![demo](https://github.com/user-attachments/assets/6df1c74a-0625-4650-8092-10bbafc2a47d)
+
+
+## Installation
 
 Training YOLOv11 requires a PC with good specifications, it is recommended to use the latest Nvidia or AMD GPUs. Alternatively, you can train it using Google Colab via the following link; make sure to 'make a copy' before starting the training.
 
@@ -95,7 +94,7 @@ You will need 2 camera for this setup, if you confuse about how to change it, he
 cap_lstm = cv.VideoCapture(0)  # set the value to 0/1/2/3 depent on how many camera you have
 cap_yolo = cv.VideoCapture(1)
 ```
-## 🍿 Features
+## Features
 
 - Safe breaking system.
 - Easy gesture sibi language for controlling wheelchair.

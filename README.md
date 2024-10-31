@@ -1,4 +1,4 @@
-[![universal-personal-banner1](fileagung4.png)](https://www.agungg.com/)
+[![banner5](banner5.png)](https://www.agungg.com/)
 
 # Wheelchair Control System Based on SIBI Gesture with Smart Braking System using YOLOv11 and LSTM
 
